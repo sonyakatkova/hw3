@@ -1,0 +1,39 @@
+header {
+    height: 64px;
+    padding: 14px 100px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-sizing: border-box;
+    position: sticky;
+}
+
+.left-side{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.links-wrap{
+    margin-left: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+    font-weight: 600;
+}
+
+.link-text:hover{
+    color: #B5460F;
+}
+
+.icons-wrap{
+    display: flex;
+}
+
+.heart-icon{
+    margin-right: 19px;
+}

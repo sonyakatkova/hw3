@@ -1,0 +1,68 @@
+@import '../variables.css';
+.loader {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader__svg {
+  display: block;
+  flex-shrink: 0;
+}
+
+.loader--s {
+  width: 24px;
+  height: 24px;
+}
+
+.loader--s .loader__container {
+  width: 24px;
+  height: 24px;
+}
+
+.loader--s .loader__svg {
+  width: 16px;
+  height: 16px;
+}
+
+.loader--m {
+  width: 48px;
+  height: 48px;
+}
+
+.loader--m .loader__container {
+  width: 48px;
+  height: 48px;
+}
+
+.loader--m .loader__svg {
+  width: 32px; 
+  height: 32px; 
+}
+
+.loader--l {
+  width: 60px;
+  height: 60px;
+}
+
+.loader--l .loader__container {
+  width: 60px;
+  height: 60px;
+}
+
+.loader--l .loader__svg {
+  width: 40px; 
+  height: 40px; 
+}
+
+.loader__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

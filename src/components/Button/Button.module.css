@@ -1,0 +1,72 @@
+@import '../variables.css';
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 52px;
+  padding: var(--button-padding-y) var(--button-padding-x);
+  font-size: var(--button-font-size);
+  font-family: 'Roboto', Arial, sans-serif !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: var(--button-line-height);
+  border: 0;
+  border-radius: var(--border-radius);
+  background-color: var(--button-primary-bg);
+  color: var(--button-text-color);
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+  position: relative;
+}
+
+.button:hover:not(:disabled) {
+  background-color: var(--button-primary-hover);
+}
+
+.button:active:not(:disabled) {
+  background-color: var(--button-primary-active);
+}
+
+.button:disabled {
+  background-color: var(--button-disabled-bg);
+  cursor: not-allowed;
+}
+
+.button.loading:not(.disabled) {
+  background-color: var(--button-primary-bg); 
+  cursor: wait;
+}
+
+.button.loading.disabled {
+  background-color: var(--button-disabled-bg);
+  cursor: not-allowed;
+}
+
+.button.loading:not(.disabled):hover,
+.button.loading:not(.disabled):active {
+  background-color: var(--button-primary-bg);
+  transform: none;
+}
+
+.button.loading.disabled:hover,
+.button.loading.disabled:active {
+  background-color: var(--button-disabled-bg);
+  transform: none;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.hidden {
+  opacity: 0;
+}
