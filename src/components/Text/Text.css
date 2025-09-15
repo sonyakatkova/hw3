@@ -1,0 +1,70 @@
+
+@import '../variables.css';
+
+.text {
+  margin: 0;
+  padding: 0;
+  color: var(--color-inherit);
+  font-weight: var(--font-weight-normal);
+  line-height: var(--line-height-p);
+}
+
+.text--view-title {
+  font-size: var(--font-size-title);
+  line-height: var(--line-height-title);
+  font-weight: var(--font-weight-bold);
+}
+
+.text--view-button {
+  font-size: var(--font-size-button);
+  line-height: var(--line-height-button);
+  font-weight: var(--font-weight-medium);
+}
+
+.text--view-p-20 {
+  font-size: var(--font-size-p-20);
+ 
+}
+
+.text--view-p-18 {
+  font-size: var(--font-size-p-18);
+}
+
+.text--view-p-16 {
+  font-size: var(--font-size-p-16);
+}
+
+.text--view-p-14 {
+  font-size: var(--font-size-p-14);
+}
+
+.text--weight-normal {
+  font-weight: var(--font-weight-normal) !important;
+}
+
+.text--weight-medium {
+  font-weight: var(--font-weight-medium) !important;
+}
+
+.text--weight-bold {
+  font-weight: var(--font-weight-bold) !important;
+}
+
+.text--color-primary {
+  color: var(--color-primary);
+}
+
+.text--color-secondary {
+  color: var(--color-secondary);
+}
+
+.text--color-accent {
+  color: var(--color-accent);
+}
+
+.text--max-lines {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

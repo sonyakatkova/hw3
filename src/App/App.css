@@ -1,0 +1,27 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #B5460F;
+}
+
+.main-content-wrap{
+    margin: 36px 100px 0px 100px ;
+    display: flex;
+    flex-direction: column;
+    /* min-height: 100vh; */
+}
+
+@media (max-width: 1024px) {
+    .main-content-wrap{
+    margin: 36px 20px 0px 20px ;
+    display: flex;
+    flex-direction: column;
+    /* min-height: 100vh; */
+}
+}

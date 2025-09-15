@@ -1,0 +1,134 @@
+:root{
+
+  --app-background: #FFC0763B;
+  --loader-bg: #B5460F;
+  --card-bg: #FFFFFF;
+  --color-primary: #000000;
+  --color-secondary: #AFADB5; 
+  --color-accent: #B5460F;
+
+  --border-radius: 10px;
+  
+
+    --button-primary-bg: #B5460F;
+  --button-primary-hover: #B5460FCC;
+  --button-primary-active: #872D01;
+  --button-disabled-bg: #D9D9D9;
+  --button-text-color: #ffffff;
+
+  --button-padding-x: 20px;
+  --button-padding-y: 17px;
+
+  --button-font-size: 18px;
+  --button-line-height: 18px;
+   --font-family-primary: 'Roboto', Arial, sans-serif;
+
+  --color-primary: #000000;
+  --color-secondary: #AFADB5; 
+  --color-accent: #B5460F;
+
+  --font-size-title: 44px;
+  --font-size-button: 16px;
+  --font-size-p-20: 20px;
+  --font-size-p-18: 18px;
+  --font-size-p-16: 16px;
+  --font-size-p-14: 14px;
+
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  --line-height-title: 48px;
+  --line-height-button: 18px;
+  --line-height-p: 1.5;
+}
+
+.icon {
+  color: inherit;
+}
+
+.icon-primary {
+  color: var(--color-primary, #000000);
+}
+
+.icon-secondary {
+  color: var(--color-secondary, #AFADB5);
+}
+
+.icon-accent {
+  color: var(--color-accent, #B5460F);
+} 
+
+
+.text {
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  font-weight: var(--font-weight-normal, 400);
+  line-height: var(--line-height-p, 1.5);
+}
+
+.text--view-title {
+  font-size: var(--font-size-title, 44px);
+  line-height: var(--line-height-title, 1.2);
+  font-weight: var(--font-weight-bold, 700);
+}
+
+.text--view-button {
+  font-size: var(--font-size-button, 16px);
+  line-height: var(--line-height-button, 1);
+  font-weight: var(--font-weight-medium, 500);
+}
+
+.text--view-p-20 {
+  font-size: var(--font-size-p-20, 20px);
+  line-height: 24px;
+  
+}
+
+.text--view-p-18 {
+  font-size: var(--font-size-p-18, 18px);
+  line-height: 22px;
+}
+
+.text--view-p-16 {
+  font-size: var(--font-size-p-16, 16px);
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.text--view-p-14 {
+  font-size: var(--font-size-p-14, 14px);
+  line-height: 18px;
+}
+
+.text--weight-normal {
+  font-weight: var(--font-weight-normal, 400);
+}
+
+.text--weight-medium {
+  font-weight: var(--font-weight-medium, 500);
+}
+
+.text--weight-bold {
+  font-weight: var(--font-weight-bold, 700);
+}
+
+.text--color-primary {
+  color: var(--color-primary, #000000);
+}
+
+.text--color-secondary {
+  color: var(--color-secondary, #AFADB5);
+}
+
+.text--color-accent {
+  color: var(--color-accent, #B5460F);
+}
+
+.text--max-lines {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
